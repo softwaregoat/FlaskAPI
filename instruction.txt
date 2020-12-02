@@ -1,0 +1,11 @@
+1. make sure if you made post 8080 with custom tcp for the security
+2. login with putty
+- sudo apt-get install
+- sudo apt-get install python3-pip
+- sudo pip3 install flask
+- git clone git directory
+- cd git-project
+- python3 app.py
+- open ip:8080
+3. get ip:8080/api/<filename>?key=<key>
+4. post ip:8080/api/put
