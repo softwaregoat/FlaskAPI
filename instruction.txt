@@ -8,4 +8,4 @@
 - python3 app.py
 - open ip:8080
 3. get ip:8080/api/<filename>?key=<key>
-4. post ip:8080/api/put
+4. post ip:8080/api/uploader with file
