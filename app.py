@@ -1,5 +1,5 @@
 from flask import Flask, json, abort, jsonify, request
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 from os import path
 
 app = Flask(__name__)
