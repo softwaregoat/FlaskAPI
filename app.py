@@ -24,15 +24,12 @@ def get_query(file_name):
         return 'Invalid api_key', 400
     file_name = FilePath + file_name + '.txt'
     if path.exists(file_name):
-        result = ''
         with open(file_name) as f:
             result = f.read()
         f.close()
-        if result == '':
-            return 'No result', 200
         return result, 200
     else:
-        return 'No exit the file', 200
+        return 'File does not exist', 200
 
 
 # upload files with post
@@ -70,25 +67,6 @@ def post_delete_file(file_name):
         return 'It should POST', 400
     
         
-# delete all files with post
-@app.route('/api/delete', methods=['GET', 'POST'])
-def post_delete_all():
-    key = request.args['api_key']
-    if key != data['api_key']:
-        return 'Invalid api_key', 200
-    if request.method == 'POST':
-        for filename in os.listdir(FilePath):
-            file_path = os.path.join(FilePath, filename)
-            try:
-                os.remove(file_path)
-            except Exception as e:
-                print('Failed to delete %s. Reason: %s' % (file_path, e))
-        
-        return 'Successfully Deleted for all files', 200
-    else:
-        return 'It should POST', 400
-
-
 # update api key
 @app.route('/api/update', methods=['GET', 'POST'])
 def post_update_api_key():

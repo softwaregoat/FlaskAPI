@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ac4dd12-af9b-46cc-b068-a1637ea4dd27" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/api_key.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_key.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+            <state relative-caret-position="297">
+              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -54,15 +52,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filename.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Files/filename.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -123,11 +112,6 @@
             <path>
               <item name="FlaskAPI" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlaskAPI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlaskAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlaskAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="Files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,11 +219,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37856328" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37856328" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" weight="0.3295325" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
@@ -356,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        <state relative-caret-position="297">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
